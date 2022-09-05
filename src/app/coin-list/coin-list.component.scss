@@ -1,0 +1,97 @@
+.banner{
+    background-image: url('../../assets/crypto-market-5.png');
+    height: 400px;
+    width: 100%;
+}
+
+.header{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;  
+    color: #77C4D1;
+
+    h2{
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-size: 3.75rem;
+        line-height: 1.2;
+        letter-spacing: 3px;
+    }
+
+    h6{
+        color: #77C4D1;
+        text-transform: capitalize;
+        font-size: .75rem;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+}
+
+.sub-header{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    border: 0;
+    background: transparent;
+    color: #FFF;
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    height: 200px;
+
+    img{
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    h5{
+        font-weight: 500;
+    }
+
+    p{
+        font-weight: 700;
+    }
+}
+
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+  
+td, th {
+    width: 25%;
+}
+
+.table-img{
+    width: 20px;
+    height: 20px;
+}
+
+:host ::ng-deep .mat-sort-header-content {
+    color: #fff;
+}
+
+:host ::ng-deep .mat-paginator-outer-container {
+    background-color: rgb(36, 37, 37);
+}
+
+:host ::ng-deep tr.mat-header-row {
+    background-color: #009688;
+}
+
+:host ::ng-deep tr.mat-row {
+    height: 70px;
+}
